@@ -14,6 +14,11 @@ cookbook_file "/opt/tomcat.sh" do
   mode   '0755'
   owner  'root'
 end
+cookbook_file "/opt/tomcat-7.0.55/conf/server.xml" do
+  source "server.xml"
+  mode   '0755'
+  owner  'root'
+end
 template "/etc/init.d/tomcat" do
   source "tomcat.erb"
   mode "0755"
