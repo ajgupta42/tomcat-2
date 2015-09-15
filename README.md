@@ -1,4 +1,4 @@
-tomcat Cookbook
+tomcat-2 Cookbook
 ===============
 TODO: Enter the cookbook description here.
 
@@ -18,7 +18,7 @@ Attributes
 TODO: List your cookbook attributes here.
 
 e.g.
-#### tomcat::default
+#### tomcat-2::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['tomcat']['bacon']</tt></td>
+    <td><tt>['tomcat-2']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -40,13 +40,13 @@ Usage
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `tomcat` in your node's `run_list`:
+Just include `tomcat-2` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[tomcat]"
+    "recipe[tomcat-2]"
   ]
 }
 ```
